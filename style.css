@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    background-color: #264653; 
+}
+.btn-log{
+    color: white;
+    background: #E76F51;
+    padding: 8px 24px;
+    border: none;
+    border-radius: 2px;
+}
+.btn-purchase{
+    color: white;
+    background: #E76F51;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 2px;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #E76F51;
+    border-color: #E76F51;
+}
+.btn-primary:hover{
+    color: #fff;
+    background-color: #e4603f;
+    border-color: #e4603f;
+}
+.btn-outline-primary {
+    color: #E76F51;
+    border-color: #E76F51;
+}
+.btn-outline-primary:hover{
+    color: white;
+    background-color: #E76F51;
+    border-color: #E76F51;
+}
+.p-color1{
+    color: #E76F51;
+}
+.happy_client img{
+    width: 40%;
+    height: auto;
+}
+span{
+    color: #E76F51;
+}
+.card-header{
+    padding: 12px 2px;
+}
+.btn{
+    text-align: left;
+
+}
+
+/* footer css  */
+
+.playstore-icon{
+    width: 30%;
+    height: auto;
+}
+.fa-star{
+    padding: 20px 0;
+    color: #E76F51;
+}
+.bike-grad{
+    mix-blend-mode: luminosity;
+}
+
+
+@media screen and (max-width: 992px){
+}
