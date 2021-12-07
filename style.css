@@ -63,7 +63,7 @@ span{
     content: '';
     display: block;
     height: 3px;
-    width: 1%;
+    width: 2%;
     background-color: #E76F51;
     transition: all .5s;
 
@@ -88,4 +88,10 @@ span{
 
 
 @media screen and (max-width: 992px){
+    .p_hover::after{
+        width: 10%;
+    }
+    .p_hover:hover:after{
+        width: 33%;
+    }
 }
