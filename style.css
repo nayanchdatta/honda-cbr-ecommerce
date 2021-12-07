@@ -57,6 +57,21 @@ span{
 
 }
 
+/* p hover effect  */
+.p_hover::after{
+    margin: auto;
+    content: '';
+    display: block;
+    height: 3px;
+    width: 1%;
+    background-color: #E76F51;
+    transition: all .5s;
+
+}
+.p_hover:hover::after{
+    width: 12%;
+}
+
 /* footer css  */
 
 .playstore-icon{

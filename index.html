@@ -30,7 +30,7 @@
                         <li class="nav-item pe-3"><a href="" class="nav-link text-white">News</a></li>
                         <li class="nav-item pe-3"><a href="" class="nav-link text-white">Contact</a></li>
                     </ul>
-                    <button class="btn-log ms-5">Login</button>
+                    <button class="btn-log ms-5"><i class="fas fa-sign-in-alt"></i> Login</button>
                 </div>
             </div>
 
@@ -42,10 +42,29 @@
                 <p class="">Computer-controlled digital transistorized with electronic advance</p>
                 <h1 class="text-white fw-bold pb-2">Honda CBR 300R</h1>
                 <p class="">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                <button class="btn-purchase">Purchase</button>
+                <button class="btn-purchase" data-bs-toggle="modal" data-bs-target="#purchase_modal"><i class="fas fa-shopping-cart"></i> Purchase</button>
             </div>
             <div class="w-100">
                 <img class="img-fluid ps-5 img-w " src="images/header-bike.png" alt="">
+            </div>
+
+            <!-- Modal  -->
+            <div id="purchase_modal" class="modal">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <div class="modal-title">Purchase Honda CBR</div>
+                            <button class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, rem obcaecati! Distinctio eligendi quam totam nesciunt blanditiis laudantium id explicabo, laboriosam velit itaque, reiciendis architecto. Non repellendus natus incidunt aperiam!  </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-primary" data-bs-dismiss="modal"><i class="fas fa-shopping-cart"></i> Purchase</button>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </section>
 
@@ -55,7 +74,7 @@
         <section class="container my-5 ">
             <div class="pb-5">
                 <h1 class="text-center fw-bold">Fetured Bikes 2021</h1>
-                <p class="text-center p-color1">Best bike collection</p>
+                <p class="p_hover text-center p-color1">Best bike collection</p>
             </div>
             <div class="row g-4">
                 <div class="col-12 col-lg-4" > <img src="images/feature-bike.jpg" alt="" class="img-fluid bike-grad p-4"> </div>
